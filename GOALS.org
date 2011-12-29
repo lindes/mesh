@@ -1,0 +1,10 @@
+Goals for MESH, in no particular order
+
+This document is a listing of goals for the Media Editing SHell
+(MESH or mesh) interface(s).  Listed in no particular order, this is
+basically just a brainstorm dump of things I'd like to be able to do
+someday.
+
+* TODO various title features [%]
+** TODO ability to generate titles from text via command-line
+** TODO ability to synchronize text-generated titles to markers in video
