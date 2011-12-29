@@ -4,11 +4,18 @@ Notes for/about things I might want to interface with, etc.
 
 * Open Source stuffs
 ** ffmpeg
+** GIMP
 * Commercial apps
-** Aperture
-** Lightroom
-** Final Cut Pro X
+** Adobe
+*** Lightroom
+** Apple
+Generally, see:
+
+- http://developer.apple.com/appleapplications/
+
+*** Final Cut Pro X
 Maybe there's some hope of future interface-ability?  See:
 - http://blog.nicedissolve.com/2011/06/is-python-the-future-of-fcpx-workflow/
 - http://www.digitalrebellion.com/blog/posts/final_cut_pro_x_from_a_developer.html
-** Motion
+*** Motion
+*** Aperture
