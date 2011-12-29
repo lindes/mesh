@@ -1,0 +1,45 @@
+Media Editing SHell (mesh) - README
+
+* Introduction
+
+The idea behind the Media Editing SHell, or MESH (or mesh), is to
+create a combination of tools, borrowing many [[http://en.wikipedia.org/wiki/Unix_shell][shell]]-like symantics,
+idioms, practices, etc., to create a powerful environment for the
+editing, cataloging, and general maintenance of audio and visual media
+(including spoken word, music, still images, video, etc.).
+
+* Status
+
+As of 2011-12-28, this project is something I (David Lindes) have been
+thinking about for some time, and wanting to have for my own purposes.
+
+Having seen many great innovations recently in the commercial
+application space ([[http://www.apple.com/aperture/][Aperture]] and [[http://www.adobe.com/products/photoshoplightroom/][Lightroom]] for still images, [[http://www.apple.com/finalcutpro/][Final Cut
+Pro]] X for video, and I haven't really looked at the audio options too
+closely yet, but I'm sure they're out there), and some promise in the
+open source world (e.g. [[http://www.darktable.org/][DarkTable]]), I still find that the solutions
+that I'm seeing out there seem to be lacking some fundamental things
+that I'd like to see:
+
+- Shell-based access to bulk manipulations, e.g.
+  - creation and manipulation of named collections of media files
+  - creation and manipulation of named operations upon media files
+  - batch application of operations upon collections
+
+... there's much more that I want to write.  Even to the point that I
+do expect this software to have a [[http://en.wikipedia.org/wiki/Graphical_user_interface][GUI]], as well.  I just want there to
+be a notion of things like pipelining and such that the UNIX shell
+world has, where small tools are built that can then be strung
+together to do complex operations.  I want this (among other things)
+for my media content.  The intention of this project is to eventually
+have that.
+
+For now, though, it's just the writing down of an idea.  Over time,
+hopefully, it will grow into something useful.
+
+* How you can help
+
+If you'd like to contribute to this project, feel free to [[http://help.github.com/fork-a-repo/][fork it]] and
+write or edit some code.  If you'd like to contribute financially, let
+me know, and I'll try to set something up.  And probably at some point
+I'll just set something up, even without such a request.  Someday.
