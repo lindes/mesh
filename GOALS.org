@@ -8,3 +8,19 @@ someday.
 * TODO various title features [%]
 ** TODO ability to generate titles from text via command-line
 ** TODO ability to synchronize text-generated titles to markers in video
+* TODO media consistency tasks [%]
+** TODO Generate MD5, SHA1, or similar checksums of files when imported/whatever
+** TODO Periodically check consistency against checksums
+** TODO Heirarchical Storage Management (HSM)
+Ideally, it would be nice to have an [[http://en.wikipedia.org/wiki/Hierarchical_storage_management][HSM]] solution in place allowing
+for a couple of things:
+*** TODO automatic backups to servers, other disks, cloud, whatever
+*** TODO single-filesystem interface that can be accessed from multiple machines
+This is especially true for the [[http://en.wikipedia.org/wiki/Write_Once_Read_Many][WORM]]-oriented nature of much of the
+content (even if the media itself isn't WORM, though perhaps backups
+would be made to WORM media).  (RAW/source media files are written
+once, and then, in a [[http://en.wikipedia.org/wiki/Non-destructive_editing][non-destructive editing]] environment, never
+touched again.  Any HSM application within the context of MESH could
+very well make use of this fact for optimizations in various ways --
+likely enforcing it on files, as well, through the virtual
+filesystem.)
