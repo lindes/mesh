@@ -1,4 +1,4 @@
-Media Editing SHell (mesh) - README
+[[https://github.com/lindes/mesh][Media Editing SHell (mesh)]] - README
 
 * Introduction
 
