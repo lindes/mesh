@@ -5,11 +5,17 @@ This document is a listing of goals for the Media Editing SHell
 basically just a brainstorm dump of things I'd like to be able to do
 someday.
 
-* TODO various title features [%]
+* TODO various title (as in video sub-title) features [%]
 ** TODO ability to generate titles from text via command-line
 ** TODO ability to synchronize text-generated titles to markers in video
 * TODO media consistency tasks [%]
 ** TODO Generate MD5, SHA1, or similar checksums of files when imported/whatever
+
+One idea: Scan media in a subdirectory, creating a ".checksums" file in
+each subdir containing checksums for files within that subdir.  We
+probably also want to store them globally somewhere, but it strikes
+me as useful to have them local, too, and it's a start.
+
 ** TODO Periodically check consistency against checksums
 ** TODO Heirarchical Storage Management (HSM)
 Ideally, it would be nice to have an [[http://en.wikipedia.org/wiki/Hierarchical_storage_management][HSM]] solution in place allowing
